@@ -1,0 +1,5 @@
+--require ./spec/slow_spec_helper
+
+--format progress
+--format documentation
+--format html --out tmp/slow_specs.html

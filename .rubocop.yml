@@ -1,0 +1,33 @@
+Layout/LineLength:
+  Max: 120
+
+Layout/SpaceInsideHashLiteralBraces:
+  EnforcedStyle: no_space
+
+Metrics/AbcSize:
+  Enabled: false
+  CountRepeatedAttributes: true
+
+Metrics/MethodLength:
+  Max: 25
+
+Naming/AccessorMethodName:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
+
+Style/EmptyCaseCondition:
+  Enabled: false
+
+Style/HashSyntax:
+  EnforcedShorthandSyntax: either
+
+Style/NumericLiterals:
+  Enabled: false
+
+Metrics/BlockLength:
+  Enabled: false
+
+AllCops:
+  NewCops: enable

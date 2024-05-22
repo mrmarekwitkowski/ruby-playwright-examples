@@ -1,0 +1,5 @@
+--require ./spec/spec_helper
+
+--format progress
+--format ParallelTests::RSpec::SummaryLogger --out tmp/<%= ENV['BROWSER'] %>_spec_summary.log
+--format html -o tmp/<%= ENV['BROWSER'] %>_result_<%= ENV['TEST_ENV_NUMBER'].nil? ? '1' : ENV['TEST_ENV_NUMBER'] %>.html
