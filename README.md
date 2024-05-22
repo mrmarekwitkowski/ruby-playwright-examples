@@ -10,7 +10,6 @@ installation. You will find copies of them [here](typescript-examples/demo-todo-
 
 ## Table of Contents
 
-- **[Foo](#foo)**
 - **[Prerequisites](#prerequisites)**
     - [Dependencies overview](#dependencies-overview)
 - **[Ruby and TypeScript bindings compared](#ruby-and-typescript-bindings-compared)**
